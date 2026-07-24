@@ -1,0 +1,3 @@
+from nltk import ngrams
+sentence = "I love natural language processing".split()
+print(list(ngrams(sentence, 2)))
