@@ -1,0 +1,5 @@
+word = "unhappiness"
+prefix = "un"
+suffix = "ness"
+stem = word[len(prefix):-len(suffix)]
+print("Prefix:", prefix, "| Stem:", stem, "| Suffix:", suffix)
