@@ -1,0 +1,4 @@
+import re
+text = "An amazing apple and a beautiful art piece."
+words = re.findall(r'\ba\w*', text, flags=re.IGNORECASE)
+print(words)
