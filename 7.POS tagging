@@ -1,0 +1,3 @@
+import nltk
+text = nltk.word_tokenize("The dog barks loudly")
+print(nltk.pos_tag(text))
