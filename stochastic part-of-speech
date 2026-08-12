@@ -1,0 +1,5 @@
+from nltk.tag import hmm
+trainer = hmm.HiddenMarkovModelTrainer()
+tagged = [[('time','NN'),('flies','VBZ')]]
+model = trainer.train(tagged)
+print(model.tag(['time']))
